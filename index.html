@@ -1,0 +1,352 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFavoritePokemons</title>
+    <!-- fiz os links separados pois está extenço -->
+    <link rel="stylesheet" href="./SubsCss/reset.css">
+    <link rel="stylesheet" href="./SubsCss/global.css">
+    <link rel="stylesheet" href="./SubsCss/cartao.css">
+    <link rel="stylesheet" href="./SubsCss/listagem.css">
+    <link rel="stylesheet" href="./SubsCss/responsive.css">
+
+    <link rel="shortcut icon" href="./Imagens/pokebola-favicon.ico"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="pokedex">
+            <!-- pokedex é o atributo, o valor, da minha classe -->
+            <nav class ="listagem2">
+                <ul>
+                    <li class="pokemon" id="garchomp">
+                        <img src="./Imagens/CABECA DO GARCHOMP.png" alt="Cabeça do garchomp">
+                        <span>Garchomp</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="cartoes-pokemon">
+                        <!--Cartao charizard  -->
+                <div class="cartao-pokemon aberto tipo-inicial" id="cartao-charizard">
+                    
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Mega Charizard</h2>
+                            <span>#006</span>
+                        </div>
+                        <span class="tipo inicial">Fogo/Dragão</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./Imagens/MEGA CHARIZARD.png" alt="Imagem do CHARIZARD">
+                           
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 78</li>  <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 130</li>
+                                <li>Defesa: 111</li>
+                                <li>Sp.Atq: 130</li>
+                                <li>Sp.Def: 85</li>
+                                <li>Velocidade: 100</li>
+                                <li>Total: 634</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Charizard voa pelo céu em busca de oponentes poderosos. Ele cospe fogo de tão grande calor que derrete qualquer coisa. No entanto, ele nunca lança seu sopro de fogo em qualquer oponente mais fraco que ele.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-fogo" id="cartao-blaziken">
+                    <!-- CARTÃO BLAZIKEN-->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 divs principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Blaziken</h2>
+                            <span>#257</span>
+                        </div>                     
+                        <span class="tipo fogo">Fogo/Lutador</span>
+                       
+
+                        <div class="cartao-imagem">
+                            <img src="./Imagens/MEGA BLAZIKEN.png" alt="Imagem do Blaziken">
+                            
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 80</li> <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 160</li>
+                                <li>Defesa: 80</li>
+                                <li>Sp. Atq: 130</li>
+                                <li>Sp. Def: 80</li>
+                                <li>Velocidade: 100</li>
+                                <li>Total: 630</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Blaziken tem pernas incrivelmente fortes - pode facilmente limpar um prédio de 30 andares em um salto. Os socos ardentes deste Pokémon deixam seus inimigos queimados e enegrecidos. </p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-metal" id="cartao-lucario">
+                   
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Lucario</h2>
+                            <span>#448</span>
+                        </div>
+                        <span class="tipo metal">Lutador/Metal</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./Imagens/MEGA LUCARIO.png" alt="Imagem do lucario">
+                           
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 70</li> <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 145</li>
+                                <li>Defesa: 88</li>
+                                <li>Sp. Atq: 140</li>
+                                <li>Sp. Def: 70</li>
+                                <li>Velocidade: 112</li>
+                                <li>Total: 625</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Lucario é um Pokémon com pele que é predominantemente azul e preto. Possui uma espiga curta e redonda na parte de trás de cada pata dianteira, para além de um terceiro sobre o peito. O focinho e as orelhas de Lucario são mais longas que sua pré-evolução Riolu.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-voador" id="cartao-rayquaza">
+                    <!-- CARTÃO RAYQUAZA-->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Mega Rayquaza</h2>
+                            <span>#384</span>
+                        </div>
+                        <span class="tipo voador">Dragão/Voador</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./Imagens/MEGA RAYQUAZA.png" alt="Imagem do Mega RAYQUAZA">
+                            
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 105</li> <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 180</li>
+                                <li>Defesa: 100</li>
+                                <li>Sp. Atq: 180</li>
+                                <li>Sp. Def: 100</li>
+                                <li>Velocidade: 150</li>
+                                <li>Total: 780</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Ele voa para sempre através da camada de ozônio, consumindo meteoróides para se sustentar. Os muitos meteoróides em seu corpo fornecem a energia necessária para Mega Evoluir. </p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-agua" id="cartao-dragonite">
+                    <!-- CARTÃO DRAGONITE-->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 div principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Dragonite</h2>
+                            <span>#148</span>
+                        </div>
+                        <span class="tipo agua">Dragão/Voador</span>
+
+                        <div class="cartao-imagem">
+                            <img src="./Imagens/DRAGONITE.png" alt="Imagem do Dragonite">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 91</li> <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 135</li>
+                                <li>Defesa: 95</li>
+                                <li>Sp. Atq: 100</li>
+                                <li>Sp. Def: 100</li>
+                                <li>Velocidade: 80</li>
+                                <li>Total: 600</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p> Dragonite é capaz de dar a volta ao mundo em apenas 16 horas. É um Pokémon de bom coração que leva navios perdidos e afundando em uma tempestade para a segurança da terra.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cartao-pokemon tipo-chao" id="cartao-garchomp">
+                    <!-- CARTÃO GARCHOMP-->
+                    <div class="cartao-topo">
+                        <!-- dividindo o cartão em 2 divs principais, a parte de cima e a parte de baixo -->
+                        <div class="detalhes">
+                            <h2 class="nome">Garchomp</h2>
+                            <span>#25</span>
+                        </div>                     
+                        <span class="tipo chao">Dragão/Chão</span>
+                       
+
+                        <div class="cartao-imagem">
+                            <img src="./Imagens/GARCHOMP.png" alt="Imagem do Garchomp">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <!-- essa é a parte de baixo do cartão -->
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <!-- unordered list, uma tag de lista não ordenada-->
+                                <li>HP: 108</li> <!-- list item, são os itens da minha lista-->
+                                <li>Ataque: 130</li>
+                                <li>Defesa: 95</li>
+                                <li>Sp. Atq: 80</li>
+                                <li>Sp. Def: 85</li>
+                                <li>Velocidade: 102</li>
+                                <li>Total: 600</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Descrição</h3>
+
+                            <ul>
+                                <p>Voa pelos céus a uma velocidade estonteante - uma visão magnífica! Tem uma disposição selvagem. O máximo de cuidado é necessário se alguém encontrar um Garchomp na selva.</p>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <nav class="listagem"> <!-- parte de navegação -->
+                <ul>
+
+                    <li class="pokemon ativo" id="charizard">
+                        <img src="./Imagens/charmander.png" alt="Cabeça do Charizard">
+                        <span>Charizard</span>
+                    </li>
+
+                    <li class="pokemon" id="dragonite">
+                        <img src="./Imagens/dratini.png" alt="Cabeça do Dragonite">
+                        <span>Dragonite</span>
+                    </li>
+
+                    <li class="pokemon" id="blaziken">
+                        <img src="./Imagens/torchic.png" alt="Cabeça do blaziken">
+                        <span>Blaziken</span>
+                    </li>
+
+                    <li class="pokemon" id="rayquaza">
+                        <img src="./Imagens/rayquaza.png" alt="Cabeça do Rayquaza">
+                        <span>Rayquaza</span>
+                    </li>
+
+                    <li class="pokemon" id="lucario">
+                        <img src="./Imagens/riolo.png" alt="Cabeça do lucario">
+                        <span>LUCARIO</span>
+                    </li>
+                   
+                   
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+    <script src="script.js"></script> <!-- linkando o javascript-->
+
+</body>
+
+</html>

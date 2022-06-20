@@ -1,0 +1,161 @@
+.cartao-pokemon {
+    display: none;
+    box-shadow: rgba(181, 42, 42, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cartao-pokemon .cartao-topo {
+    padding: 30px 40px 0px; /* 30px na parte de cima, 40px aos lados e 0px na parte de baixo. */
+    background: url('../imagens/fundo-cartao.png') top center / 67% no-repeat;
+    background-position-y: 55%;
+}
+
+.cartao-pokemon .nome {
+    margin-bottom: 5px;
+    
+}
+
+.cartao-pokemon .tipo {
+    font-size: 12px;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 9px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #FFFFFF;
+}
+
+/* Cores dos tipos de cada cartão */
+
+.cartao-topo .fogo {
+    background-color: #dd1616cc;
+    opacity: 1;
+}
+
+.tipo.inicial {
+    background-color: #ff4400;
+}
+
+.tipo.voador {
+    background-color: #261999;
+}
+
+
+.tipo.agua {
+    background-color: #d70a44;
+}
+
+.tipo.metal {
+    background-color: #680000;
+}
+.tipo.chao {
+    background-color: #ff2600;
+}
+
+
+
+
+
+.cartao-pokemon .detalhes {
+    color: #FFFFFF;
+    display: flex;    /* display flex na classe pai faz com que as classes filhas fiquem ao lado */
+    justify-content: space-between; /* coloca um espaço grande entre os elementos na horizontal*/
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
+    width: 350px;
+    height: 350px;
+   
+}
+
+.cartao-pokemon img {
+    max-height: 100%;
+}
+
+.aberto img {
+    animation-name: slide;
+    animation-duration: 0.5s;
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        max-height: 60%;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cartao-pokemon .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+}
+
+.cartao-pokemon .cartao-informacoes .status, .cartao-pokemon .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li, .cartao-pokemon .cartao-informacoes .status ul li {
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto {
+    display: block;
+}
+
+/* Cores do fundo cartão dpokemon */
+
+
+.tipo-voador {
+    background: rgb(5, 113, 39);
+    background: linear-gradient(135deg, rgb(4, 93, 14) 5%, rgb(35, 218, 96) 23%, rgb(81, 159, 120) 40%, rgb(150, 254, 188) 60%);
+}
+
+.tipo-fogo {
+    background: rgb(141, 6, 4);
+    background: linear-gradient(135deg, rgb(162, 7, 7) 5%, rgb(156, 51, 51) 23%, rgb(230, 142, 142) 40%, rgb(204, 132, 132) 60%);
+}
+
+.tipo-agua {
+    background: rgb(113, 106, 5);
+    background: linear-gradient(135deg, rgb(89, 93, 4) 5%, rgb(162, 176, 59) 23%, rgb(196, 200, 114) 40%, rgb(222, 227, 168) 60%);
+}
+
+.tipo-inicial {
+    background: rgb(33, 20, 225);
+    background: linear-gradient(135deg, rgb(29, 17, 255) 5%, rgb(19, 29, 145) 23%, rgb(81, 82, 159) 40%, rgb(150, 162, 254) 60%);
+}
+.tipo-metal {
+    background: rgb(22, 21, 41);
+    background: linear-gradient(135deg, rgb(35, 35, 47) 5%, rgb(54, 54, 65) 23%, rgb(88, 88, 95) 40%, rgb(98, 98, 99) 60%);
+}
+
+.tipo-chao {
+    background: rgb(102, 31, 0);
+    background: linear-gradient(135deg, rgb(156, 52, 7) 5%, rgb(140, 76, 52) 23%, rgb(128, 98, 75) 40%, rgb(200, 131, 91) 60%);
+}
+
+
+
+
+
